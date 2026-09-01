@@ -3165,9 +3165,9 @@
                                         <tr>
                                             <th>PO Tracking ID</th>
                                             <th>Purchase Order ID</th>
-                                            <th>Item Description</th>
-                                            <th>Buyer</th>
                                             <th>Supplier / Manufacturer</th>
+                                            <th>Buyer</th>
+                                            <th>Item Description</th>
                                             <th>Qty</th>
                                             <th>UoM</th>
                                             <th>Category</th>
@@ -5802,7 +5802,7 @@
                     y = doc.lastAutoTable.finalY + 8
                 }
                 ;
-                addSection("1. PURCHASE ORDER TRACKING", ["PO Tracking ID", "No PO", "Package", "Item Description", "Vendor", "Qty", "UoM", "PO Date", "Req. Delivery", "Fcst Delivery", "Actual Delivery", "Status", "Delay", "Remarks"], m.poRows),
+                addSection("1. PURCHASE ORDER TRACKING", ["PO Tracking ID", "No PO", "Package", "Vendor", "Item Description", "Qty", "UoM", "PO Date", "Req. Delivery", "Fcst Delivery", "Actual Delivery", "Status", "Delay", "Remarks"], m.poRows),
                 /*addSection("2. MILESTONE TRACKING", ["Milestone ID", "PO No", "Milestone", "Planned Date", "Actual Date", "Completion", "Status"], m.milestoneRows),*/
                 addSection("2. FAT & INSPECTION", ["FAT No", "Item / Equipment", "Vendor", "FAT Date", "Location", "Inspector", "Status"], m.fatRows),
                 addSection("3. SHIPMENT TRACKING", ["Shipment No", "Item / Description", "Mode", "ETD", "ETA", "POL", "POD", "Current Location", "Status"], m.shipRows),
